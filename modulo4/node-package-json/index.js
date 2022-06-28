@@ -1,0 +1,1 @@
+import { pessoas } from "./nome.js";
