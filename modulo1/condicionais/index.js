@@ -56,11 +56,11 @@
 
 //Exercicio 4 
 
-const filme = {
-    genero: "terror ",
-    filme :"Escolha ou morra",
-    ingresso : 12 ,
-}
+// const filme = {
+//     genero: "terror ",
+//     filme :"Escolha ou morra",
+//     ingresso : 12 ,
+// }
 
-const frase: ("bom filme!")
-console.log(frase)
+// const frase: ("bom filme!")
+// console.log(frase)
