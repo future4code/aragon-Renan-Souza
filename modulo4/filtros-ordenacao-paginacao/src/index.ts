@@ -2,7 +2,6 @@ import express from "express";
 import cors from "cors";
 import { ping } from "./endpoints/ping";
 import { getUsers } from "./endpoints/getUsers";
-import { getAllusers } from "./getAllUsers";
 
 const app = express();
 

@@ -1,0 +1,36 @@
+GET https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users
+Authorization: lua-labenu-aragon
+
+###
+
+POST https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users
+Authorization: lua-labenu-aragon
+Content-Type: application/json
+
+{
+    "name": "Yuzo",
+    "email": "yuzo@labenu.com"
+}
+
+###
+
+
+GET https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/1cc268e0-f7e8-4a46-8391-caa32fcaf9c0
+Authorization:  lua-labenu-aragon
+
+###
+
+PUT https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/4094eb0c-4987-4ccb-9c7d-9e4cd02a5552
+Authorization: lua-labenu-aragon
+Content-Type: application/json
+
+{
+    "name": "Yuzo Instrutor da Labenu",
+    "email": "yuzo@labenu.com"
+}
+
+###
+
+DELETE https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/4094eb0c-4987-4ccb-9c7d-9e4cd02a5552
+Authorization: lua-labenu-aragon
+

@@ -1,71 +1,71 @@
-// // //Exercício 1 
+// Exercicio 1 
 
-// const filme = {
-//     direcao: "Robert Zemeckis",
-//     nome: "De volta para o futuro",
-//     lancamento: "25/12/1985",
-//     elenco: ["Marc McClure", "Wendie Jo Spebern", "George DiCenzo"],
-//     assistido: true
+// const pessoa = {
+//     nome: "Camila ",
+//     apelidio: ["mila", "mika", "Mimi"]
 // }
-// // //notação de ponto
-// // console.log('Direção:', filme.direcao)
-// // console.log('Nome:', filme.nome)
 
-// // //notação de colchetes
-// // console.log('Lançamento:', filme['lancamento'])
-// // console.log('Elenco:', filme['elenco'])
-// // console.log('O filme foi assistido?', filme['assistido'])
+// const frase = `Eu sou ${pessoa.nome}, mas pode me chamar de ${pessoa.apelidio}`
+// console.log(frase)
 
-// // //Exercício 2
 
-// // const pessoa = {
-// //     nome: "Fernando",
-// //     idade: 28,
-// //     generoMusical: 'Pop Rock'
-// // }
 
-// // const frase = `O nome da pessoa é ${pessoa.nome}, ela tem ${pessoa.idade} anos, e seu gênero musical favorito é ${pessoa.generoMusical}`
-// // console.log(frase)
+// function editarpessoa(editarpessoa)  {
+//     const novaPessoa = {
+//         ...objetoPessoa,
+//         novoApelidio: ["Mike", "Mi", "Mia"],
+//     }
 
-// //Exercício 3
-// //Adicionar propriedade personagens no objeto filmes
+//     }
+    
+   
 
-// filme.personagens = ["Dave McFly", "Linda McFly", "Sam Baines"]
-// console.log(filme.personagens)
+// const frase = `Eu sou ${novaPessoa.nome}, mas pode me chamar de ${novaPessoa.novoApelidio}`
+// console.log(frase)
 
-// const pessoa1 = `${filme.elenco[0]} atuando como ${filme.personagens[0]}`
-// console.log('Personagem 1:', pessoa1)
 
-// const pessoa2 = `${filme.elenco[1]} atuando como ${filme.personagens[1]}`
-// console.log(pessoa2)
 
-// const pessoa3 = `${filme.elenco[2]} atuando como ${filme.personagens[2]}`
-// console.log(pessoa3)
+// Exercicio 2 
 
-// filme.elenco[0] = "Xuxa"
-// console.log(filme)
-
-// console.log(filme.direcao, filme.nome, filme.elenco, filme.lancamento, filme.assistido)
-
-//Exercício 4
 const pessoa = {
-    nome: "Fernando",
-    idade: 28,
-    generoMusical: 'Pop Rock'
+	nome: "Leo", 
+  idade: 28, 
+	profissao: "Educador"
 }
 
-function editarPessoa(objetoPessoa) {
-    const novaPessoa = {
-        ...objetoPessoa,
-        comidasFavoritas: ["Pizza", 'Brócolis', "Hamburguer"],
-        melhorAmigue: {
-            nomeDoAmigue: "Lua",
-            idadeDoAmigue: 27
-        }  
-    }
-    const frase = `O nome da pessoa é ${novaPessoa.nome} e suas comidas preferidas são ${novaPessoa.comidasFavoritas[0]}, ${novaPessoa.comidasFavoritas[1]} e ${novaPessoa.comidasFavoritas[2]}. 
-    Seu melhor amigo se chama ${novaPessoa.melhorAmigue.nomeDoAmigue} e tem ${novaPessoa.melhorAmigue.idadeDoAmigue} anos`
-    console.log(frase)
+minhaFuncao(pessoa)
+
+console.log(pessoa)
+// Retorno: ["Bruno", 5, 23, "Instrutor", 9]
+
+
+// Exercicio 3 
+function imprimeFrutas
+
+const fruta = {
+    nome: ["Banana", "Uva", "Maça"]
+
 }
 
-editarPessoa(pessoa)
+
+
+
+function imprimeFrutas (fruta) {
+    const imprimeFrutas= nome: ["Banana", "Uva", "Maça"]
+
+    const primeirafrutas = frutas[0]
+    const segundafrutas = frutas.shift()
+    const ultimafrutas = frutas.pop()
+   
+    const primeirafrutas = primeirafrutas
+    const segundafrutas = segundafrutas
+    const ultimafrutas = ultimafrutas
+
+    imprimeFrutas.push(primeirafrutas)
+    imprimeFrutas.push(segundafrutas
+    imprimeFrutas.push(ultimafrutas)
+    
+    return imprimeFrutas
+}
+
+console.log(imprimeFrutas(numeros))
