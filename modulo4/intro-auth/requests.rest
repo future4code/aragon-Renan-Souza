@@ -1,0 +1,30 @@
+### Endpoint de teste
+GET http://localhost:3003/ping
+
+
+### Signup
+POST http://localhost:3003/signup
+Content-Type: application/json
+
+{
+    "nickname": "renandev",
+    "email": "renan@gmail.com",
+    "password": "renan123"
+}
+
+### login
+POST http://localhost:3003/login
+Content-Type: application/json
+
+{
+    "email": "renan@gmail.com",
+    "password": "renan123"
+}
+
+### Get all users (protected)
+GET http://localhost:3003/users
+
+{
+    "email": "renan@gmail.com",
+    "password": "renan123"
+}
