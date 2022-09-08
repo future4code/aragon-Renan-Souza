@@ -1,0 +1,6 @@
+Programa que escreve 'Olá, mundo js'.
+[] Saída de dados
+[] Entrada de dados 
+ - terminal 
+ - Ler arquivo
+ [] Variáveis 
